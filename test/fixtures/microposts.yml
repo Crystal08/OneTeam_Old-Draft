@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  job: MyString
+  skills: MyString
+  project: MyString
+  dates: MyString
+  location: MyString
+  lead: MyString
+  contact: MyString
+
+two:
+  user_id: 1
+  job: MyString
+  skills: MyString
+  project: MyString
+  dates: MyString
+  location: MyString
+  lead: MyString
+  contact: MyString

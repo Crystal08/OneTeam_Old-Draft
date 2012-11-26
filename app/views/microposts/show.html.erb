@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @micropost.user_id %>
+</p>
+
+<p>
+  <b>Job:</b>
+  <%= @micropost.job %>
+</p>
+
+<p>
+  <b>Skills:</b>
+  <%= @micropost.skills %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%= @micropost.project %>
+</p>
+
+<p>
+  <b>Dates:</b>
+  <%= @micropost.dates %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @micropost.location %>
+</p>
+
+<p>
+  <b>Lead:</b>
+  <%= @micropost.lead %>
+</p>
+
+<p>
+  <b>Contact:</b>
+  <%= @micropost.contact %>
+</p>
+
+
+<%= link_to 'Edit', edit_micropost_path(@micropost) %> |
+<%= link_to 'Back', microposts_path %>
